@@ -1,0 +1,449 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    background-image: linear-gradient(to right, MediumPurple, MediumTurquoise);
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.tierbtn{
+    width: 250px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Retro Land Mayhem', sans-serif;
+    color: MediumTurquoise;
+    border-radius: 10px;
+    background-color: MediumPurple;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    margin: 5px;
+}
+
+.genbtn{
+    width: 250px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Retro Land Mayhem', sans-serif;
+    color: MediumTurquoise;
+    border-radius: 10px;
+    background-color: MediumPurple;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    margin: 5px;
+    margin-top: 50px;
+}
+
+.genbtn a{
+    text-decoration: none;
+    color: MediumTurquoise;
+}
+
+.tierbtn a{
+    text-decoration: none;
+    color: MediumTurquoise;
+}
+
+.content {
+    width: 80%;
+    align-content: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#title{
+    font-size: 80px;
+    font-family: 'Retro Land Mayhem', sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 1px 8px black;
+}
+
+.btns {
+    padding: 0;
+    margin: 0;
+    margin-top: 6%;
+    margin-bottom: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#button {
+    margin: 10px;
+    color: white;
+    text-shadow: 2px 2px rgb(56, 56, 56);
+    font-size: 35px;
+    font-family: 'Retro Land Mayhem', sans-serif;
+    border-radius: 10px;
+    background-color: RoyalBlue;
+    text-shadow: 1px 3px 7px black;
+}
+
+#button:hover {
+    box-shadow: 1px 7px 18px 0px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+#btnwrite {
+    margin: 10px;
+}
+
+.pokecontent {
+    justify-content: center;
+    font-family: 'Retro Land Mayhem', sans-serif;
+    margin: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pokecontent>div {
+    margin: 35px;
+}
+
+.pokemons {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pokemons>div {
+    margin: 2px;
+}
+
+.image {
+    width: 100%;
+}
+
+#pokeimage {
+    width: 100%;
+}
+
+#pokeimage:hover {
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+.number {
+    width: 100%;
+    font-size: 12px;
+    text-shadow: 0px 2px 7px black;
+}
+
+.pokename {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 0px 2px 7px black;
+}
+
+.type {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    text-shadow: 0px 2px 7px black;
+}
+
+.typenormal {
+    color: black;
+    text-shadow: none;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: bisque;
+}
+
+.typegrass {
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: forestgreen;
+}
+
+.typepoison {
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: magenta;
+}
+
+.typewater {
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: dodgerblue;
+}
+
+.typefire {
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: coral;
+}
+
+.typeflying {
+    color: black;
+    text-shadow: none;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: silver;
+}
+
+.typerock {
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: goldenrod;
+}
+
+.typefighting {
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: maroon;
+}
+
+.typeelectric {
+    color: black;
+    text-shadow: none;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: gold;
+}
+
+.typebug {
+    color: black;
+    text-shadow: none;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: greenyellow;
+}
+
+.typeground {
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: darkgoldenrod;
+}
+
+.typefairy {
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: violet;
+}
+
+.typepsychic {
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: hotpink;
+}
+
+.typesteel {
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: slategray;
+}
+
+.typeice {
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: skyblue;
+}
+
+.typeghost {
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: slateblue;
+}
+
+.typedragon {
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    background: linear-gradient(0deg, lightcoral 50%, royalblue 50%);
+}
+
+#grass {
+    background-image: url("images/grass.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#fire {
+    background-image: url("images/fire.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#water {
+    background-image: url("images/water.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#bug {
+    background-image: url("images/bug.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#normal {
+    background-image: url("images/normal.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#poison {
+    background-image: url("images/poison.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#electric {
+    background-image: url("images/electric.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#ground {
+    background-image: url("images/ground.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#fairy {
+    background-image: url("images/fairy.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#dragon {
+    background-image: url("images/dragon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#fighting {
+    background-image: url("images/fighting.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#ghost {
+    background-image: url("images/ghost.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#psychic {
+    background-image: url("images/psychic.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#rock {
+    background-image: url("images/rock.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#ice{
+    background-image: url("images/ice.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1400px){
+    #button {
+        margin: 10px;
+        color: white;
+        text-shadow: 2px 2px rgb(56, 56, 56);
+        font-size: 25px;
+        font-family: 'Retro Land Mayhem', sans-serif;
+        border-radius: 7px;
+        background-color: RoyalBlue;
+        text-shadow: 1px 3px 7px black;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1000px){
+    #button {
+        margin: 10px;
+        color: white;
+        text-shadow: 2px 2px rgb(56, 56, 56);
+        font-size: 20px;
+        font-family: 'Retro Land Mayhem', sans-serif;
+        border-radius: 5px;
+        background-color: RoyalBlue;
+        text-shadow: 1px 3px 7px black;
+    }
+}
+
+@media only screen and (min-width: 100px) and (max-width: 700px){
+    #button {
+        display: none;
+    }
+
+    .tierbtn{
+        display: none;
+    }
+
+    .genbtn{
+        display: none;
+    }
+}
